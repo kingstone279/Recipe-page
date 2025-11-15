@@ -3,7 +3,56 @@
     display: flex;
     justify-content: space-around;
 }
-
+body{
+  background: hsl(31, 75%, 88%)
+}
+#page{
+    background: white;
+    margin: 0 20%;
+    padding: 25px;
+    border-radius: 16px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+@media (max-width: 340px){
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    #page{
+       margin: 0;
+    }
+}
+h2 ,h3{
+    font-family: youngserif, serif;
+    font-weight: 400;
+}
+.Bold_text{
+    font-weight: 700;
+}
+li,p{
+    font-family: outfit, sans-serif;
+}
+h4{
+    font-family: outfit, sans-serif;
+    color: hsl(332, 51%, 32%);
+}
+h3{
+    color: hsl(14, 45%, 36%);
+    font-size: 28px;
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+   padding-right: 10px;
+}
+.prep_time{
+    background:hsl(330, 100%, 98%);
+    padding: 4px 10px;
+    border-radius: 7px;
+}
 @font-face {
     font-family: Outfit;
     src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
@@ -11,4 +60,18 @@
 @font-face {
     font-family: YoungSerif;
     src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+.value{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.nutrients{
+    font-weight: 300;
+}
+li{
+    margin-bottom: 8px;
+    color: hsl(30, 10%, 34%);
+}
+.prep_list{
+    color: hsl(330, 100%, 98%);
 }
