@@ -1,0 +1,14 @@
+.diet_rows{
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: YoungSerif;
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
